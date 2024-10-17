@@ -1,0 +1,17 @@
+-> why we need of CSS Framework??
+1.Faster Development- Framework comes with pre-designed components that reduces
+  the time spent on writing custom CSS from scratch.
+2.Responsive Design - Responsive layouts, ensuring that websites work seamlessly 
+  across devices.
+3.Cross-Browser Compatibility- reducing bugs and styling inconsistencies.
+popular CSS Framework- Bootstrap, Tailwind CSS, Foundation etc.
+
+-> How to use Tailwind CSS.
+1.we can directly use by adding cdn link 
+  <script src="https://cdn.tailwindcss.com"></script>
+2.Tailwind CLI (Using Terminal)
+  https://tailwindcss.com/docs/installation
+  after that we have to link css file link output.css file
+  <link href="./output.css" rel="stylesheet">
+3.if not working run this in Terminal 
+  npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
